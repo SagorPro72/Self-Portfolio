@@ -312,7 +312,13 @@ strong {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
 }
+.navbar-brand span{
+  transition: 0.4s;
+}
+.navbar-brand:hover span{
+  color: #14B789;
 
+}
 .is-sticky .navbar-brand,
 .is-sticky .navbar-brand:hover {
   color: var(--dark-color);
